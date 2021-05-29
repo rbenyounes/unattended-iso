@@ -1,0 +1,21 @@
+
+Setting up name and e-mail address
+git config --global user.name "Your Name"
+git config --global user.email "your_email@whatever.com"
+
+Create a repository
+cd <to the target directory>
+git init
+
+Add a file to the repository
+git add hello.html
+git commit -m "First Commit"
+
+Manually create a repository on github
+using the a web browser
+
+Connect to the repository on GitHub using the command:
+git remote add origin https://github.com/user_name/Mytest.git
+
+Pushing files in a local repository to GitHub repository
+git push origin master
